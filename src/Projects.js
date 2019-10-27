@@ -71,7 +71,7 @@ class Projects extends Component{
                         </div>}
                         cardButton={
                             <LinkButton
-                                buttonHref={"https://github.com/Rory-Campbell/class-planner"}
+                                buttonHref={"https://github.com/Rory-Campbell/rory-story.git"}
                                 className={'btn btn-lg btn-primary'}
                                 buttonText={"View Git-Hub"}
                 />

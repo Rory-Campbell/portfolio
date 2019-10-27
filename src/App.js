@@ -13,6 +13,11 @@ function App() {
       <NavBar/>
       <Switch>
             <Route 
+            exact path="/portfolio"
+            render={() => <Home/>}
+            />
+            <Route 
+            
               exact path="/"      
               render={() => <Home />} />
             <Route 
