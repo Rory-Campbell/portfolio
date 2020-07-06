@@ -1,73 +1,10 @@
-body {
-  background-color: #B2DBD5;
+.home-container {
+  background-image: url('/mountain.jpg');
+  background-size: cover;
+  background-position:top;
+  background: cover;
 }
 
-.jumbotron{
-    background-color: #B2DBD5;
-  
-    margin-top: 15%;
-    text-align: left;
-    
-    
- }
-
- 
-
- .display-text{
-   padding-top: 5%;
- }
- .can-do{
-   
-   background-color: #2B616D;
-   color:#FFFFFF;
-   
- }
-
- .skills{
-   background-color:  #FA8D62;
-   color: #FFFFFF;
- }
-
- .skills ul{
-   list-style: none;
-   text-align: center;
-   padding: 0;
- }
-
- .bottom{ 
-   margin-top: 10%;
- }
-
- 
-
- .col-sm.empty{
-   
-   background-color: #B2DBD5;
- }
-
-.jumbotron h1{
-font-size:5em;
-color: #FA8D62;
+.title{
+  padding-top: 45%;
 }
-
-.jumbotron p{
-  font-size: 2.5em;
-  background-color:#B2DBD5;
-  
-  color: #FFFFFF;
-  }
-
-  .jumbotron hr{
-    color: #2B616D;
-    border-top: 1px solid;
-  }
-
-  .jumbotron .btn{
-    background-color: #FA8D62;
-    border: solid 1.1px #020509;
-  }
-
-  #idea-icon{
-    font-size: 3rem;
-    
-  }

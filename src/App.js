@@ -6,12 +6,28 @@ import NavBar from './NavBar.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Projects from './Projects';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: [
+      'Indie Flower',
+      'cursive',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif'
+    ].join(','),
+  }
+});
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <div className="App">
       <NavBar/>
-      <Switch>
+      <section id="portfolio-header">
+        <Switch>
             <Route 
             exact path="/portfolio"
             render={() => <Home/>}
@@ -32,10 +48,20 @@ function App() {
 
 
           </Switch>
+        </section>
+        <section id="projects">
+          <Projects/>
+        </section>
+
+        <section id="contact">
+          <Contact/>
+        </section>
+
       
       
       
     </div>
+    </ThemeProvider>
   );
 }
 

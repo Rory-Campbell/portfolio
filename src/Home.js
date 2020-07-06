@@ -1,95 +1,92 @@
 import React, {Component} from 'react';
 import './Home.css';
-import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
-import DevicesIcon from '@material-ui/icons/Devices';
-import CodeIcon from '@material-ui/icons/Code';
-import {Route, Switch, NavLink} from "react-router-dom";
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import Button from '@material-ui/core/Button';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
+
+
+
+
+
 
 class Home extends Component{
     render(){
         return(
             <div>
-            <section className="top">
-            <div className="container">
-                <div className="jumbotron">
-                    <div className="container">
-                        <h1>Hello, I'm Rory 
-                </h1>
-                <hr></hr>
-                <p className="lead">I'm a front-end focused developer on the Gold Coast</p>
-                    <NavLink to="/projects" className="btn btn-lg">View My Work</NavLink>
-                    
-                    </div>
-                </div>
-            </div>
-            </section>
-            
-            <section className="bottom">
-                <div className="container can-do">
-                    <div className="row">
-                        <div className="col-sm">
+                <Container
+                justifyItems="center">
+                    <Grid
+                    spacing={2}
+                    justify="center" 
+                    alignItems="center" 
+                    container>
+                        <Grid
+                        item
+                        xs={4}>
                             
-                            <div className="container display-text">
-                                <h2>What I Can Do</h2>
-                                <EmojiObjectsIcon id="idea-icon"/>
-                                <p>
-                               Using the latest technologies and frameworks, I can turn your ideas into real life web applications.
-
-                                </p>
-                            </div> 
-
-                            <div className="container display-text">
-                            <DevicesIcon id="idea-icon"/>
-                                <p>
-                                  I can build responsive web sites and apps that look and function awesome on any device
-
-                                </p>
-                            </div>     
-                                    
-                                    
-                                
-                            
-                        </div>
-                    <div className="col-sm empty">
-                    
-                    </div>
-                    </div>
-                </div>
-                <div className="container skills">
-                    <div className="row">
-                        <div className="col-sm empty">
-
-                        </div>
-                        <div className="col-sm">
-                            <div className="container display-text">
-                            <h2>Skills</h2>
-                            <ul> 
-                                <CodeIcon/>
-                                <li>
-                                    HTML
-                                </li>
-                                <CodeIcon/>
-                                <li>
-                                     CSS
-                                </li>
-                                <CodeIcon/>
-                                <li>
-                                     JavaScript
-                                </li>
-                                <CodeIcon/>
-                                <li>
-                                     React
-                                </li>
-
-                            </ul>                    
-                        </div>
-                        </div>
+                        </Grid>
                         
-                    </div>    
-                </div>
+                        <Grid
+                        item
+                        xs={4}
+                        >
+                            <div className="title">
+                            
+                                <Typography
+                                    variant="h2">
+                                    Hi I'm Rory
+                                </Typography>
+                            </div>  
+                        </Grid>
+                        
+                        <Grid
+                        item
+                        xs={4}>
+                            
+                        </Grid>
+                       
+                        <Grid
+                        item
+                        xs={12}>
+                            <Typography
+                            variant="h6">
+                               <p> I am a front end focused developer based on the Gold Coast.<br></br>
+                               I enjoy bringing projects to life on the internet
+                               </p> 
+                            </Typography>
+                            
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Grid 
+                                container
+                                direction="column"
+                                spacing={2}>
+                                    <Grid item>
+                                        <AnchorLink href="#projects">
+                                        <Button variant="contained"
+                                        className="Button"
+                                        >
+                                        Check Out My Work
+                                        </Button>
+                                        </AnchorLink>
+                                    </Grid> 
+                                    <Grid item>
+                                     <EmailIcon fontSize='medium'/>  
+                                     <PhoneIphoneIcon fontSize='medium'/> 
+                                     <LinkedInIcon fontSize='medium'/>
+                                    </Grid> 
+                            </Grid>
 
-
-            </section>
+                        </Grid>
+                       
+                    </Grid>
+                </Container>
             </div>
          )
     }

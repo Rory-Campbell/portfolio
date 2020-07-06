@@ -2,31 +2,67 @@ import React, {Component} from 'react';
 import './Contact.css';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Container from '@material-ui/core/Container';
 
 class Contact extends Component{
     render(){
         return(
-            <div className="row">
-                <div className="col-sm-3"></div>
-                <div className="col-sm-6">
-                    <div className="container contact">
-                        <h1>Get In Touch</h1>
-                            <div className="email">
-                                <EmailIcon fontSize='large'/>
-                                <h3>EMAIL</h3>
-                                <p>rorycampbell345@gmail.com</p>
-                            </div>
-                            <div className="phone">
-                                <PhoneIphoneIcon fontSize='large'/>
-                                <h3>PHONE</h3>
-                                <p>0412486453</p>
+            <Container className="contact">
+            <Grid 
+            alignContent="space-around" container>
+                <Grid item xs={12} className='contact-header'>
+                    <Typography variant='h2' className='contact-title'>
+                        Get In Touch
+
+                    </Typography>
+                    <Typography variant='h5'>
+                        If you like my work and have a project you need help bringing to life, reach out to me!
+                    </Typography>
+                </Grid>
+                <Grid item xs={4}>
+                    
+                    <EmailIcon fontSize='large'/>
+                    <Typography variant="h6">
+                        EMAIL
+                    </Typography>
+                    <Typography>
+                        rorycampbell345@gmail.com
+                    </Typography>
+                </Grid>
+            
+                <Grid item xs={4}>
+                    
+                        <LinkedInIcon fontSize='large'/>
+                        <Typography variant="h6">
+                        LINKEDIN
+                    </Typography>
+                    
+                </Grid>
+                <Grid item xs={4}>
+                        <PhoneIphoneIcon fontSize='large'/>
+                        <Typography variant="h6">
+                        Phone
+                    </Typography>
+                    <Typography>
+                        0412486453
+                    </Typography>
+                    
+                </Grid>
+                
+            </Grid>
+            </Container>
+            
+                                
+                            
+                            
+                                
 
 
-                            </div>
-                    </div>
-                </div>
-                <div className="col-sm-3"></div>
-            </div>
+                            
+                
         )
     }
 

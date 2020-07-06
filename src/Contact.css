@@ -1,13 +1,12 @@
-.email {
-    padding-top:20%;
+.contact{
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
-.phone {
-    padding-top: 20%;
+.contact-header{
+    padding-bottom: 5%;
 }
 
-.contact {
-   padding-top: 10%; 
-   
-   
+.contact-title{
+    padding-bottom: 2.5%;
 }

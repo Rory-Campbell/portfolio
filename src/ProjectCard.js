@@ -3,7 +3,7 @@ import LinkButton from './LinkButton';
 import './ProjectCard.css';
 
 
-const sampleCard = (props) =>{
+const projectCard = (props) =>{
         return(
 
            <div className="mainContainer">
@@ -37,4 +37,4 @@ const sampleCard = (props) =>{
             
         )
 }
-export default sampleCard;
+export default projectCard;

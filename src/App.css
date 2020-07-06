@@ -1,6 +1,26 @@
+#portfolio-header{
+  background-image: url('/mountain.jpg');
+  background-size: cover;
+  background-position:top;
+  background: cover;
+  padding-bottom: 25%;
+}
 .App {
   text-align: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 }
+
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'),
+  url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+}
+
 
 .App-logo {
   height: 40vmin;
