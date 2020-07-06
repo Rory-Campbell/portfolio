@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5c20fef.chunk.css",
-    "main.js": "/portfolio/static/js/main.8cf40209.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8cf40209.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1a30926c.chunk.css",
+    "main.js": "/portfolio/static/js/main.c2c1d5d5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c2c1d5d5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
     "static/css/2.0624914a.chunk.css": "/portfolio/static/css/2.0624914a.chunk.css",
-    "static/js/2.c6e81278.chunk.js": "/portfolio/static/js/2.c6e81278.chunk.js",
-    "static/js/2.c6e81278.chunk.js.map": "/portfolio/static/js/2.c6e81278.chunk.js.map",
+    "static/js/2.cd0f4738.chunk.js": "/portfolio/static/js/2.cd0f4738.chunk.js",
+    "static/js/2.cd0f4738.chunk.js.map": "/portfolio/static/js/2.cd0f4738.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.41fd568a32710e0867c699f7025b1cdf.js": "/portfolio/precache-manifest.41fd568a32710e0867c699f7025b1cdf.js",
+    "precache-manifest.1e7e03025a68e5ba3a528547cfe919b7.js": "/portfolio/precache-manifest.1e7e03025a68e5ba3a528547cfe919b7.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.c5c20fef.chunk.css.map": "/portfolio/static/css/main.c5c20fef.chunk.css.map"
+    "static/css/main.1a30926c.chunk.css.map": "/portfolio/static/css/main.1a30926c.chunk.css.map",
+    "static/media/Class-planner.jpeg": "/portfolio/static/media/Class-planner.bd6fd13c.jpeg",
+    "static/media/Dave-site.png": "/portfolio/static/media/Dave-site.56bd29de.png",
+    "static/media/Deer-jess.png": "/portfolio/static/media/Deer-jess.22ed3a27.png",
+    "static/media/Rory-story.png": "/portfolio/static/media/Rory-story.f7353c20.png",
+    "static/media/Smile.png": "/portfolio/static/media/Smile.7908c506.png",
+    "static/media/Yelp-camp.png": "/portfolio/static/media/Yelp-camp.9d69a0f9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.021c856b.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.c6e81278.chunk.js",
-    "static/css/main.c5c20fef.chunk.css",
-    "static/js/main.8cf40209.chunk.js"
+    "static/js/2.cd0f4738.chunk.js",
+    "static/css/main.1a30926c.chunk.css",
+    "static/js/main.c2c1d5d5.chunk.js"
   ]
 }
