@@ -4,9 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
@@ -75,11 +72,6 @@ class Home extends Component{
                                         Check Out My Work
                                         </Button>
                                         </AnchorLink>
-                                    </Grid> 
-                                    <Grid item>
-                                     <EmailIcon fontSize='medium'/>  
-                                     <PhoneIphoneIcon fontSize='medium'/> 
-                                     <LinkedInIcon fontSize='medium'/>
                                     </Grid> 
                             </Grid>
 

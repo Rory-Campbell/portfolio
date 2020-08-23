@@ -22,36 +22,26 @@ class Contact extends Component{
                         If you like my work and have a project you need help bringing to life, reach out to me!
                     </Typography>
                 </Grid>
-                <Grid item xs={4}>
-                    
-                    <EmailIcon fontSize='large'/>
-                    <Typography variant="h6">
-                        EMAIL
-                    </Typography>
-                    <Typography>
-                        rorycampbell345@gmail.com
-                    </Typography>
+                <Grid item xs={3}>
+
+                </Grid>
+                <Grid item xs={3}>
+                    <a href = "mailto: rorycampbell345@gmail.com">
+                        <EmailIcon fontSize='large'/>
+                            <Typography variant="h6">
+                                EMAIL
+                            </Typography>
+                    </a>
                 </Grid>
             
-                <Grid item xs={4}>
-                    
+                <Grid item xs={3}>
+                    <a target="_blank" href="http://www.linkedin.com/in/rory-campbell-aa74a61b5">
                         <LinkedInIcon fontSize='large'/>
-                        <Typography variant="h6">
-                        LINKEDIN
-                    </Typography>
-                    
+                            <Typography variant="h6">
+                                LINKEDIN
+                            </Typography>
+                    </a> 
                 </Grid>
-                <Grid item xs={4}>
-                        <PhoneIphoneIcon fontSize='large'/>
-                        <Typography variant="h6">
-                        Phone
-                    </Typography>
-                    <Typography>
-                        0412486453
-                    </Typography>
-                    
-                </Grid>
-                
             </Grid>
             </Container>
             
